@@ -30,4 +30,8 @@ export const CastList = ({ credits: { cast } }) => {
 
 CastList.porTypes = {
   credits: PropTypes.object.isRequired,
+  credit_id: PropTypes.string,
+  name: PropTypes.string,
+  profile_path: PropTypes.string,
+  character: PropTypes.string,
 };

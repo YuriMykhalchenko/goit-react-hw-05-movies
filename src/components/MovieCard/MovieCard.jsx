@@ -55,4 +55,10 @@ export const MovieCard = ({
 
 MovieCard.propTypes = {
   movieDetails: PropTypes.object.isRequired,
+  poster_path: PropTypes.string,
+  genres: PropTypes.string,
+  overview: PropTypes.string,
+  release_date: PropTypes.number,
+  title: PropTypes.string,
+  vote_average: PropTypes.string,
 };
