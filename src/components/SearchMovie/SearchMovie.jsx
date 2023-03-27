@@ -51,4 +51,7 @@ export function SearchMovie({ onSubmit }) {
 
 SearchMovie.propTypes = {
   onSubmit: PropTypes.func,
+  handleChangeInput: PropTypes.func,
+  handleSubmitForm: PropTypes.func,
+  resetForm: PropTypes.func,
 };

@@ -26,6 +26,7 @@ export const MovieList = ({ movies }) => {
 
 MovieList.propTypes = {
   movies: PropTypes.array.isRequired,
+  location: PropTypes.func,
   id: PropTypes.string,
   title: PropTypes.string,
   backdrop_path: PropTypes.string,
